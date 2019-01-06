@@ -34,6 +34,6 @@ RUN curl -L ${KINDLEGEN_URL} > /tmp/kindlegen.tar.gz && \
     mv /tmp/kindlegen /usr/bin && \
     rm -rf /tmp/*
 
-RUN python3 -m pip install panflute==1.10.6
+RUN python3 -m pip install panflute==1.11.1
 
 WORKDIR /data
