@@ -36,6 +36,4 @@ RUN curl -L ${KINDLEGEN_URL} > /tmp/kindlegen.tar.gz && \
 
 RUN python3 -m pip install panflute==1.10.6
 
-COPY ./fonts/* usr/share/fonts/
-
 WORKDIR /data
